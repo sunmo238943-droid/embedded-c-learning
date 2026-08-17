@@ -1,0 +1,11 @@
+# C build files
+*.exe
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
