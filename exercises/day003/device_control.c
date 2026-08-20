@@ -6,10 +6,10 @@ int main(void)
     int mode;
 
     printf("Enter voltage:");
-    scanf("%f,&voltage");
+    scanf("%f",&voltage);
 
     printf("Enter temperature: ");
-    scanf("%f, &temperature");
+    scanf("%f", &temperature);
     
     if(voltage<3.0f||voltage>5.0f||
        temperature<0.0f||temperature>60.0f)
@@ -22,7 +22,7 @@ int main(void)
     }
 
         printf("Select mode(1-3):");
-        scanf("%d,&mode");
+        scanf("%d",&mode);
 
         switch (mode)
         {
